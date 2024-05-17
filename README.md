@@ -47,6 +47,8 @@ Sections include
 - Tests
 - Conclusion
 
+Also compiled videos can be found in the `presentation.zip` file.
+
 ## Project Report
 
 You can read the project report from the `Project Report.pdf` file.
