@@ -35,6 +35,12 @@ manim -pql main.py <list of sections>
 manim -pqh main.py <list of sections>
 ```
 
+To start the animations in presentation mode after previous commands are successfully executed, use the following command:
+
+```bash
+manim-slides <list of sections>
+```
+
 Sections include
 - Intro
 - WDM
