@@ -26,7 +26,9 @@ public class MultiExtendMove extends AbstractMove<Network> {
     @Override
     protected void doMoveOnGenuineVariables(ScoreDirector<Network> scoreDirector) {
         scoreDirector.beforeVariableChanged(path, "path");
-        for (int node: append) path.getPath().add(node);
+        for (int i = append.size()-1; i >= 0; i--) {
+            path.getPath().add(append.get(i));
+        }
         scoreDirector.afterVariableChanged(path, "path");
         scoreDirector.triggerVariableListeners();
     }

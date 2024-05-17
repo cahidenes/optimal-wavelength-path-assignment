@@ -79,7 +79,7 @@ public class Network {
 
         System.out.println("Number of paths: " + paths.size());
 
-        // Full constructor
+//        // Full constructor
         for (Path path: paths) {
             int cur = path.getSource();
             while (cur != path.getDestination()) {

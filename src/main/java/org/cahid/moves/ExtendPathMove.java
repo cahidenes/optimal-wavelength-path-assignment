@@ -25,6 +25,7 @@ public class ExtendPathMove extends AbstractMove<Network> {
     @Override
     protected void doMoveOnGenuineVariables(ScoreDirector<Network> scoreDirector) {
         scoreDirector.beforeVariableChanged(path, "path");
+
         path.getPath().add(neighbor);
         scoreDirector.afterVariableChanged(path, "path");
         scoreDirector.triggerVariableListeners();
