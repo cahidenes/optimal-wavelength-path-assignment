@@ -46,3 +46,7 @@ Sections include
 - OptimizationMethod
 - Tests
 - Conclusion
+
+## Project Report
+
+You can read the project report from the `Project Report.pdf` file.
